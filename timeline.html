@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOBAFEST.</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/timeline.css" />
+    <link rel="icon" href="Asset/logo.svg"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent mt-4">
+        <div class="container">
+            <a class="navbar-brand logo" href="landing.html">
+                <img src="Asset/logo.svg" alt="">
+            </a>
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon" style="color: #fafafa;"></span>
+            </button>
+            <div class="collapse navbar-collapse mt-2" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="event.html">EVENTS</a>
+                <a class="nav-link" href="timeline.html">TIMELINE</a>
+                <a class="nav-link" href="#footer">CONTACT US</a>
+                <a class="nav-link register" href="register.html">REGISTER</a>
+              </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="timeline-container">
+        <div class="timeline">
+          <ul>
+            <li>
+              <div class="timeline-content">
+                <h3 class="date">10th march, 2021</h3>
+                <h1>open registration</h1>
+                <p class="mt-3">Grand opening of BobaFest 2021! You can register now and get a special offer of 35% discount!</p>
+                <button type="button mt-5" class="btn">
+                    <a href="register.html">Register now
+                        <img src="Asset/arrow.svg" alt="">
+                    </a>
+                  </button>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+                <h3 class="date">20th march, 2021</h3>
+                <h1>registration closed</h1>
+                <p class="mt-3">We're so sorry! :(<br>Don't be sad if you can't register now! We are open every year. See you next year!</p>
+                <button type="button mt-5" class="btn">
+                    <a href="event.html">view events
+                        <img src="Asset/arrow.svg" alt="">
+                    </a>
+                  </button>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+                <h3 class="date">22nd march, 2021 - 25th March, 2021</h3>
+                <h1>robots showcase</h1>
+                <p class="mt-3">View the new developed robot arms for industrials and factories made by FAVE Solution and FILE Magz.</p>
+                <button type="button mt-5" class="btn">
+                    <a href="event.html">view events
+                        <img src="Asset/arrow.svg" alt="">
+                    </a>
+                </button>
+            </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+                <h3 class="date">26th march, 2021 - 28th march, 2021</h3>
+                <h1>new green energy techs</h1>
+                <p class="mt-3">View the latest BNCC and Gojek goods that successfully use renewable technology to save the world.</p>
+                <button type="button mt-5" class="btn">
+                    <a href="event.html">view events
+                        <img src="Asset/arrow.svg" alt="">
+                    </a>
+                </button>
+            </div>
+            </li>
+            <li>
+                <div class="timeline-content">
+                  <h3 class="date">29th march, 2021 - 31st march, 2021</h3>
+                  <h1>work necessities</h1>
+                  <p class="mt-3">View the latest Technoscape and Dewaweb’s solutions to the aid your work utensils during the pandemic.</p>
+                  <button type="button mt-5" class="btn">
+                    <a href="event.html">view events
+                        <img src="Asset/arrow.svg" alt="">
+                    </a>
+                </button>
+                </div>
+              </li>
+            <li>
+                <div class="timeline-content">
+                  <h3 class="date">1st may, 2021</h3>
+                  <h1>closing ceremony</h1>
+                  <p class="mt-3">Thanks for joining us on this BobaFest 2021 journey! See you next year! :D</p>
+                  <button type="button mt-5" class="btn">
+                    <a href="event.html">view events
+                        <img src="Asset/arrow.svg" alt="">
+                    </a>
+                </button>
+                </div>
+              </li>
+          </ul>
+        </div>
+      </div>
+      <!-- AKHIR TIMELINE -->
+      <!-- contact us -->
+      <div class="pop-up" id="pop-up-1">
+        <div class="content">
+          <div class="close-btn" onclick="togglePopup()">X</div>
+          <img src="Asset/Illust-event-register.svg" alt="" width="250px" height="290px">
+          <div class="input-field mt-3">
+            <input type="mail" placeholder="Email" class="validate">
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Your Inquiries" class="validate">
+          </div>
+          <button type="button mt-5" class="second-btn">
+            <a href="#">send
+                <img src="Asset/arrow.svg" alt="">
+            </a>
+          </button>
+        </div>
+      </div>
+      <!-- akhir contact us -->
+      
+      <!-- FOOTER -->
+      <section class="footer" id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-content text-center insiders-title">
+              <h4>stay in touch</h4>
+              <button type="button" class="first-btn" onclick="togglePopup()">
+                let's talk
+              </button>
+            </div>
+          </div>
+          <div class="row">
+            <ul class="social-media">
+              <li><a href=""><img src="Asset/facebook.svg" alt="" width="40px"></a></li>
+              <li><a href=""><img src="Asset/instagram.svg" alt="" width="40px"></a></li>
+              <li><a href=""><img src="Asset/twitter.svg" alt="" width="40px"></a></li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="footer-bottom text-center insiders-title mt-4">
+              <p>Made with love by Angela Elviani.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- AKHIR FOOTER -->
+    <script src="js/bootstrap.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/timeline.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

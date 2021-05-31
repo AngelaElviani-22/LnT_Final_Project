@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOBAFEST.</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/register.css" />
+  <link rel="icon" href="Asset/logo.svg" />
+</head>
+<body>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent mt-4">
+    <div class="container">
+        <a class="navbar-brand logo" href="landing.html">
+            <img src="Asset/logo.svg" alt="">
+        </a>
+        <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" style="color: #fafafa;"></span>
+        </button>
+        <div class="collapse navbar-collapse mt-2" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="event.html">EVENTS</a>
+            <a class="nav-link" href="timeline.html">TIMELINE</a>
+            <a class="nav-link" onclick="togglePopup()">CONTACT US</a>
+            <a class="nav-link register" href="#">REGISTER</a>
+          </div>
+        </div>
+    </div>
+</nav>
+<!-- AKHIR NAVBAR -->
+    <!-- register -->
+    <section class="register mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-start">
+              <h1 data-text="REGISTRATION">REGISTRATION</h1>
+              <p class="mb-4">Please fill the forms below!</p>
+            </div>
+            <div class="content">
+                <div class="col-lg-6 contents">
+                  <form
+                    action=""
+                    method="GET"
+                    class="needs-validation"
+                    id="form"
+                    novalidate
+                  >
+                  <div class="mb-3 mt-4">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" required="" placeholder="name@example.com"/>
+                    <div class="invalid-feedback">Please input a valid email addresses!</div>
+                  </div>
+    
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="name" required="" />
+                      <div class="invalid-feedback">Name must be filled!</div>
+                    </div>
+    
+                    <div class="mb-3">
+                      <label for="phone" class="form-label">Phone Number</label>
+                      <input type="number" class="form-control" id="phone" required=""/>
+                      <div class="invalid-feedback">Phone number must be filled!</div>
+                    </div>
+    
+                    <div class="mb-3">
+                      <label for="message" class="form-label">Event</label>
+                        <select class="form-select" aria-label="Default select example" required="">
+                        <option selected>Robots Showcase</option>
+                        <option value="1">Work Necessities</option>
+                        <option value="2">New Green Energy Techs</option>
+                        </select>
+                      <div class="invalid-feedback">You must select an event!</div>
+                    </div>
+                    <button type="submit" class="btn btn-success mt-3">Submit</button>
+                  </form>
+                </div>
+                <div class="col-lg-5">
+                    <img src="Asset/Illust-register.png" alt="" width="400px">
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- register -->
+
+      <!-- contact us -->
+      <div class="pop-up" id="pop-up-1">
+        <div class="content">
+          <div class="close-btn" onclick="togglePopup()">X</div>
+          <img src="Asset/Illust-event-register.svg" alt="" width="250px" height="290px">
+          <form action="" method="GET" class="needs-validation" id="form" novalidate>
+            <div class="input-field mt-3">
+              <input type="email" placeholder="Email" class="form-control" required>
+            </div>
+            <div class="invalid-feedback">Please input a valid email addresses!</div>
+            <div class="input-field">
+              <input type="text" placeholder="Your Inquiries" class="form-control" required>
+            </div>
+            <div class="invalid-feedback">Description must be filled!</div>
+            <button type="send mt-5" class="second-btn">
+              <a href="#">send
+                  <img src="Asset/arrow.svg" alt="">
+              </a>
+            </button>
+          </form>
+        </div>
+      </div>
+      <!-- akhir contact us -->
+      <script src="js/bootstrap.js"></script>
+      <script src="js/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<svg width="70" height="69" viewBox="0 0 70 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)" filter="url(#filter0_d)">
+<path d="M54.741 8H15.3689C12.4048 8 10 10.3516 10 13.25V51.75C10 54.6484 12.4048 57 15.3689 57H54.741C57.7051 57 60.1099 54.6484 60.1099 51.75V13.25C60.1099 10.3516 57.7051 8 54.741 8ZM49.2714 25.3687C49.2938 25.675 49.2938 25.9922 49.2938 26.2984C49.2938 35.7812 41.9115 46.7078 28.4221 46.7078C24.2612 46.7078 20.4023 45.5266 17.1586 43.4922C17.7514 43.5578 18.3218 43.5797 18.9258 43.5797C22.3597 43.5797 25.5139 42.4422 28.0306 40.5172C24.8093 40.4516 22.1024 38.3844 21.1741 35.5406C22.3038 35.7047 23.3216 35.7047 24.4849 35.4094C21.1293 34.7422 18.6126 31.8547 18.6126 28.3656V28.2781C19.5858 28.8141 20.7266 29.1422 21.9235 29.1859C20.9173 28.5315 20.0924 27.6436 19.5225 26.6016C18.9526 25.5595 18.6554 24.3958 18.6574 23.2141C18.6574 21.8797 19.0153 20.6547 19.6529 19.5938C23.2657 23.9469 28.6905 26.7906 34.7753 27.0969C33.7351 22.2297 37.4598 18.2812 41.9339 18.2812C44.0479 18.2812 45.9494 19.1453 47.2916 20.5453C48.947 20.2391 50.5353 19.6375 51.9447 18.8172C51.3966 20.4797 50.2445 21.8797 48.7233 22.7656C50.1998 22.6125 51.6315 22.2078 52.9513 21.65C51.9558 23.0828 50.7031 24.3516 49.2714 25.3687Z" fill="url(#paint0_linear)"/>
+</g>
+<defs>
+<filter id="filter0_d" x="0" y="0" width="70" height="69" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.698039 0 0 0 0 0.462745 0 0 0 0 0.933333 0 0 0 0.54 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear" x1="10" y1="8" x2="61.1305" y2="9.08923" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B78CFF"/>
+<stop offset="1" stop-color="#9729E7"/>
+</linearGradient>
+<clipPath id="clip0">
+<rect width="50" height="49" fill="white" transform="translate(10 8)"/>
+</clipPath>
+</defs>
+</svg>
